@@ -1,0 +1,25 @@
+.link-to-ingredients {
+  opacity: 0.8;
+  color: white;
+}
+
+.link-to-ingredients:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: white;
+}
+
+.cocktail-link {
+  opacity: 0.8;
+  color: #e3194c;
+  position: relative;
+  top: 40px;
+  left: 85px;
+  z-index: 3000;
+}
+
+.cocktail-link:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #e3194c;
+}

@@ -1,5 +1,7 @@
 .wrapper {
-  background-image: -moz-linear-gradient(right, rgba(220,220,220,0.4), rgba(220,220,220,0.6)), url("background_cocktail.jpg");
+  // background-image: -moz-linear-gradient(right, rgba(220,220,220,0.4), rgba(220,220,220,0.6)), url("background_cocktail.jpg");
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  background-color: rgb(245, 245, 245);
+  min-height: calc(100vh - 140px);
 }
