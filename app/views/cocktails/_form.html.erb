@@ -1,12 +1,12 @@
 <%= simple_form_for(@cocktail) do |f| %>
   <%= f.error_notification %>
 
-  <div class="form-inputs">
-    <%= f.input :name, label: "Nom" %>
-    <%= f.input :photo, as: :attachinary %>
+  <div class="form-inputs form-padding">
+    <%= f.input :name, label: "Nom", class: "separate" %>
+    <%= f.input :photo, as: :attachinary, class: "separate" %>
   </div>
 
-  <div class="form-actions">
-    <%= f.button :submit, class: "btn btn-warning" %>
+  <div class="form-actions form-padding">
+    <%= f.button :submit, label: "Ajouter",  class: "btn btn-warning" %>
   </div>
 <% end %>
