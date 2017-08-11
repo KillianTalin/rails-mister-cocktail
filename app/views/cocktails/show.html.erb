@@ -11,3 +11,7 @@
   <% end %>
 </ul>
 
+<% if @product.photo? %>
+  <%= cl_image_tag @product.photo.path, width: 400, height: 600, crop: :fill %>
+<% end %>
+
